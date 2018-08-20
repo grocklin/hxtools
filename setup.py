@@ -3,7 +3,9 @@ import subprocess
 
 setup(
     name="hxtools",
-    packages=find_packages(),
+    version = "0.0.1",
+    packages=find_packages("src"),
+    package_dir={"": "src"},
     author = "Gabriel Rocklin",
     author_email = "grocklin@gmail.com",
     package_data={},

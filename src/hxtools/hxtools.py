@@ -17,7 +17,7 @@ from sklearn.metrics import mean_squared_error
 import simanneal
 from simanneal import Annealer
 import random
-import molmass
+import hxtools.molmass as molmass
 
 
 def distance_to_ss(x):
