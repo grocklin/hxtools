@@ -1,0 +1,7 @@
+scipy
+numpy
+seaborn
+pandas
+simanneal
+pymzml
+fastdtw
